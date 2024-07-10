@@ -1,9 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/Header'
 
-const inter = Inter({ subsets: ['latin'] })
+const nunito = Nunito({
+  weight: ['400', '500', '600', '800'],
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'Woovi Frontend Challenge',
@@ -18,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-Br">
-      <body className={inter.className}>
+      <body className={nunito.className}>
         <Header />
 
         {children}

@@ -1,0 +1,25 @@
+.labelTitle {
+  color: var(--text-dark);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.labelTitle span {
+  font-weight: 600;
+}
+
+.cashbackLabel {
+  font-size: 1rem;
+  color: var(--default-green);
+}
+
+.cashbackLabel span {
+  font-weight: 800;
+}
+
+.totalText {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-light);
+}

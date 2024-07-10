@@ -1,0 +1,78 @@
+.main {
+  width: 92.5%;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--text-dark);
+}
+
+.formControlLabelContainer {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.formControlLabelTitle {
+  position: absolute;
+  left: 1.25rem;
+  top: -1rem;
+
+  color: var(--text-dark);
+  font-weight: 800;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  padding: 0 1.25rem;
+  background-color: var(--light-gray);
+  border-radius: 100px;
+}
+
+.formControlLabelDiv {
+  width: 100%;
+  padding: 1.25rem;
+
+  border: 2px var(--light-gray) solid;
+}
+
+.formControlLabelDiv:has(input:checked) {
+  background-color: var(--bg-green);
+  border-color: var(--default-green);
+}
+
+.formControlLabelDiv:first-of-type {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.formControlLabelDiv:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.formControlLabel {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+}
+
+.infoAlertContainer {
+  background-color: var(--dark-blue);
+  padding: 0.5rem 0.625rem;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+
+  clip-path: polygon(100% 0, 95% 50%, 100% 100%, 0% 100%, 0% 0%);
+}
+
+.infoAlert {
+  color: white;
+}
+
+.infoAlert span {
+  font-weight: 800;
+}
