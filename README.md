@@ -29,7 +29,9 @@ The challenge is a replica of a figma design. It must follow the next topics:
 ### Links
 
 - Challenge Figma: [https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100](https://www.figma.com/file/hv1LgD7oNrtlmfWgKBG6PF/Woovi-Desafio-Front?node-id=1%3A100)
-- Vercel deployment URL: [#](#)
+- Vercel deployment URL: [https://woovi-frontend-challenge-zeta.vercel.app/](https://woovi-frontend-challenge-zeta.vercel.app/)
+- URL to see pix payment step: [https://woovi-frontend-challenge-zeta.vercel.app/pix](https://woovi-frontend-challenge-zeta.vercel.app/pix)
+- URL to see credit card details step: [https://woovi-frontend-challenge-zeta.vercel.app/credit-card](https://woovi-frontend-challenge-zeta.vercel.app/credit-card)
 
 ## My process
 
