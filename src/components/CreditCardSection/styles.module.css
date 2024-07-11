@@ -1,0 +1,84 @@
+.main {
+  width: 92.5%;
+  margin: 0 auto;
+}
+
+.main section {
+  padding-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--text-dark);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.CardData {
+  display: flex;
+  gap: 1.375rem;
+}
+
+.submitButton {
+  margin: 0 auto;
+  display: inline-flex;
+  justify-content: center;
+  gap: 0.875rem;
+  width: 100%;
+  padding: 0.625rem 1.25rem;
+
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+}
+
+.warningText {
+  margin: 0 auto;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.warningText span {
+  display: block;
+  color: var(--text-dark);
+  font-weight: 800;
+}
+
+.stepLabel {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 1.125rem;
+}
+
+.stepLabel span:last-child {
+  font-weight: 800;
+}
+
+.totalContainer {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 0.875rem;
+}
+
+.totalContainer p:last-child {
+  font-size: 1.125rem;
+}
