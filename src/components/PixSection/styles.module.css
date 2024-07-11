@@ -1,0 +1,80 @@
+.main {
+  width: 92.5%;
+  margin: 0 auto;
+}
+
+.main section {
+  padding-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: var(--text-dark);
+}
+
+.qrCodeContainer {
+  margin: 0 auto;
+  padding: 0.5rem;
+  border: 2px solid var(--default-green);
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.copyButton {
+  margin: 0 auto;
+  display: inline-flex;
+  gap: 0.875rem;
+  width: fit-content;
+  padding: 0.625rem 1.25rem;
+
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+
+  border-radius: 8px;
+  background-color: var(--dark-blue);
+}
+
+.warningText {
+  margin: 0 auto;
+  color: var(--text-light);
+  text-align: center;
+}
+
+.warningText span {
+  display: block;
+  color: var(--text-dark);
+  font-weight: 800;
+}
+
+.stepLabel {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 1.125rem;
+}
+
+.stepLabel span:last-child {
+  font-weight: 800;
+}
+
+.totalContainer {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+
+  font-size: 0.875rem;
+}
+
+.totalContainer p:last-child {
+  font-size: 1.125rem;
+}
